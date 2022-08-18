@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 1에서
+=======
+2에서
+>>>>>>> btest
 asdfasdf
 asdfㄴㄹㄴ
+asdf
+dsd
