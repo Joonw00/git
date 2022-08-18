@@ -1,3 +1,6 @@
+<<<<<<< HEAD
 asdfㅁㄴㅁㄴㄴdfdasdf
 asdfasdf
 fff
+=======
+>>>>>>> parent of 41a2c95 (23)
