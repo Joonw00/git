@@ -1,12 +1,39 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-1에서
-=======
-2에서
->>>>>>> btest
-asdfasdf
-asdfㄴㄹㄴ
-asdf
-dsd
-=======
->>>>>>> parent of 41a2c95 (23)
+git add 파일명 : 스테이징
+git commit -m '메모' : 레퍼지토리 등록
+
+git add . 으로 모든 파일 스테이징 가능
+git status
+
+--- 브랜치 -- 
+git branch 이름
+git switch 이름
+
+fast forward, 3-way
+merge
+1. 기준이 되는 branch로 이동
+2. git merge 합칠 branch이름
+git branch -d  이름 : 머지 된 브랜치 삭제
+충돌 시 수정 후 add,commit
+
+rebase
+1. 새로운 브랜치로 이동
+2. git rebase 이름
+3. 중심 브랜치로 이동
+4. git merge 새로운 브랜치명
+
+---깃허브---
+git branch -M main
+git push -u 원격저장소주소(주소.git) 올릴로컬브랜치명
+(-u 쓰면 주소 기억)
+
+사용
+git clone 저장소주소
+
+깃헙-세팅-collabo에서 등록
+**원격 저장소에 다른 사람이 변경 시 git push 불가
+* 원격저장소 최신내용이 로컬저장소에 있을 때만 git push 가능
+
+git pull 원격저장소주소브랜치명 : 원격저장소->로컬 저장소
+: git fetch(원격저장소 신규 commit 가져옴) + git merge(내 브랜치에 merge)
+충돌 시 로컬과 동일하게 해결
+온라인 머지 가능
